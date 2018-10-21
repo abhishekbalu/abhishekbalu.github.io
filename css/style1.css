@@ -168,7 +168,7 @@ header.pw_header_area {
     font-size: 13px;
     font-weight: 400;
     letter-spacing: 2px;
-    color: #000;
+    color: white;
     text-transform: uppercase;
     transition: all 0.4s;
 }
@@ -191,7 +191,7 @@ header.pw_header_area {
 }
 
 .pw_menu ul > li > ul li a {
-    color: #ffffff;
+    color: white;
     display: block;
     padding: 10px 20px;
     font-size: 12px;
@@ -199,7 +199,7 @@ header.pw_header_area {
 }
 
 .pw_menu ul > li > ul li a:hover {
-    color: #ffffff;
+    color: #white;
 }
 
 .pw_menu ul > li > ul li {
