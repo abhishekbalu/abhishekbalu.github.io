@@ -138,42 +138,10 @@ pw HEADER AREA
 
 header.pw_header_area {
     padding: 42px 0;
-    position: relative;
+    position: sticky;
 }
 .pw_logo img {
     width: 200px;
-}
-.nav-bar{
-    margin-left: 53px;
-    
-}
-.nav-bar ul {
-    display:block;
-    float:left;
-    margin-left: 500px;
-
-}
-.nav-bar ul li{
-    list-style:none;
-    display:inline-block;
-    padding: 0px 20px;
-    font-weight: 700;
-
-
-
-}
-.nav-bar ul li a {
-    text-decoration: none;
-    color: #fff;
-    display: block;
-    text-transform: uppercase;
-
-}
-.nav-bar ul li a:hover {
-    color: #42C0D9;
-    border-bottom: 3px solid #42C0D9;
-    line-height: 1,4;
-
 }
 
 .pw_menu ul {
