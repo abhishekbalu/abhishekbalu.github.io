@@ -2917,12 +2917,14 @@ h6 {
 /* Footer Area css
 ============================================================================================ */
 .footer_area {
-  background: #fff; }
+  background: black;
+  color:white;
+   }
 
 .f_title {
   margin-bottom: 35px; }
   .f_title h3 {
-    color: #fff;
+    color: black;
     font-size: 18px;
     font-weight: bold;
     font-family: "Heebo", sans-serif;

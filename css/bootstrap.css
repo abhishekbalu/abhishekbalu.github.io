@@ -5328,10 +5328,10 @@ input[type=submit].btn-block {
     align-items: flex-start
 }
 
-.media-body {
+/*.media-body {
     -ms-flex: 1;
     flex: 1
-}
+}*/
 
 .list-group {
     display: -ms-flexbox;
