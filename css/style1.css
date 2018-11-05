@@ -1130,7 +1130,7 @@ pw Responsive
     /*CONTACT PAGE*/
     .pw_info_item {
         display: block;
-        text-align: center;
+        text-align: left;
     }
     .pw_contact_form_area {
         padding: 0 0 50px;
@@ -1247,14 +1247,19 @@ pw Responsive
     /*CONTACT PAGE*/
     .pw_contact_form_area {
         padding: 0 0 30px;
+       margin-right :  600px;
+        
     }
     .pw_input_submit input[type="submit"] {
         font-size: 16px;
         padding: 16px 25px;
     }
     .pw_info_item {
-        display: block;
-        text-align: center;
+        display: inline-block;
+        text-align: left;
+         font-size: 12px;
+       
+
     }
     .info_bottom {
         margin-bottom: 30px;
