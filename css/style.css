@@ -2744,13 +2744,12 @@ h6 {
 .personal_text p {
   font-family: "Roboto", sans-serif;
   max-width: 540px;
-  color: black;
+  color: #000000;
   margin-bottom: 40px; }
 .personal_text1 p {
   font-family: "Roboto", sans-serif;
-  min-width:800;
-  max-width:1200px;
-  color: black;
+
+  color: #000000;
   margin-bottom: 40px; }
 .personal_text .basic_info li {
   margin-bottom: 15px; }
@@ -2802,30 +2801,30 @@ h6 {
   font-weight: bold;
   margin-bottom: 12px;
   padding-top: 2px;
-  color: black; }
+  color: #000000; }
 .Hightlights h4 {
   font-size: 16px;
   font-weight: 500;
   font-family: "Roboto", sans-serif;
   text-transform: None;
   margin-bottom: 20px;
-  color: black; }
+  color: #000000; }
 .Hightlights h3 {
   font-size: 48px;
   text-transform: uppercase;
   margin-bottom: 15px;
-  color: black; 
+  color: #000000; 
     }
 .Hightlights p {
   font-family: "Roboto", sans-serif;
  
-  color: black;
+  color: #000000;
   margin-bottom: 20px; }
 .personal_text1 p {
   font-family: "Roboto", sans-serif;
   min-width:800;
   max-width:1200px;
-  color: black;
+  color: #000000;
   margin-bottom: 40px; }
 
 /* End Personal Profile Area css
