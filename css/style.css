@@ -2640,7 +2640,7 @@ h6 {
       text-transform: uppercase;
       margin-bottom: 20px; }
     .tabs_inner .tab-content .tab-pane .list li .media .media-body p {
-      color: rgba(255, 255, 255, 0.75);
+      color: rgba(0, 0, 0);
       margin-bottom: 0px; }
        .tabs_inner .tab-content .tab-pane .list li .media .media-body a {
       color:black;
