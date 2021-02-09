@@ -2733,7 +2733,7 @@ h6 {
   font-size: 16px;
   font-weight: 500;
   font-family: "Roboto", sans-serif;
-  text-transform: uppercase;
+  text-transform: None;
   margin-bottom: 20px;
   color: #222222; }
 .personal_text h3 {
@@ -2744,7 +2744,13 @@ h6 {
 .personal_text p {
   font-family: "Roboto", sans-serif;
   max-width: 540px;
-  color: #777777;
+  color: black;
+  margin-bottom: 40px; }
+.personal_text1 p {
+  font-family: "Roboto", sans-serif;
+  min-width:800;
+  max-width:1200px;
+  color: black;
   margin-bottom: 40px; }
 .personal_text .basic_info li {
   margin-bottom: 15px; }
@@ -2782,6 +2788,45 @@ h6 {
       background-image: -moz-linear-gradient(0deg, #766dff 0%, #88f3ff 100%);
       background-image: -webkit-linear-gradient(0deg, #766dff 0%, #88f3ff 100%);
       background-image: -ms-linear-gradient(0deg, #766dff 0%, #88f3ff 100%); }
+
+/*highlights*/
+/*---------------------------------------------------------------------------------------------------------*/
+/*========================================================================================================0*/
+
+
+.Hightlights h6 {
+  font-size: 14px;
+  font-family: "Roboto", sans-serif;
+  text-transform: None;
+  letter-spacing: 2.1px;
+  font-weight: bold;
+  margin-bottom: 12px;
+  padding-top: 2px;
+  color: black; }
+.Hightlights h4 {
+  font-size: 16px;
+  font-weight: 500;
+  font-family: "Roboto", sans-serif;
+  text-transform: None;
+  margin-bottom: 20px;
+  color: black; }
+.Hightlights h3 {
+  font-size: 48px;
+  text-transform: uppercase;
+  margin-bottom: 15px;
+  color: black; 
+    }
+.Hightlights p {
+  font-family: "Roboto", sans-serif;
+ 
+  color: black;
+  margin-bottom: 20px; }
+.personal_text1 p {
+  font-family: "Roboto", sans-serif;
+  min-width:800;
+  max-width:1200px;
+  color: black;
+  margin-bottom: 40px; }
 
 /* End Personal Profile Area css
 ============================================================================================ */

@@ -20,6 +20,12 @@ input {
     box-sizing: border-box;
 }
 
+.h6 {
+  display: block;
+  font-size: 8em;
+  font-weight: bold;
+}
+
 a:hover,
 a:focus,
 input:focus,
