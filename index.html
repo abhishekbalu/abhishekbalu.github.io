@@ -121,6 +121,21 @@
   padding-left: 28px;   /* <-- indent everything except title */
 }
 
+.name-row{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+}
+
+.name-row h4{
+  margin: 0;             /* removes default h4 top/bottom space */
+}
+
+.resume-btn{
+  white-space: nowrap;
+}
+
 .button1 {background-color: #4CAF50;} /* Green */
 .button2 {background-color: #766dff;} /* Blue */
 </style>
@@ -169,13 +184,14 @@
 								<div class="personal_text">
 									
 
-									<div class="top-bar">
+									<div class="name-row">
+                      <h4>Hi, I am Abhishek Balasubramaniam</h4>
+
                       <a href="pdf/abhishek_balasubramaniam.pdf" target="_blank" download class="resume-btn">
                         <i class="fa fa-download"></i> Resume
                       </a>
                     </div>
-
-									<h4 font-weight:bold>Hi, I am Abhishek Balasubramaniam</h4><span></span>
+                    <span></span>
 									<h5 style="color: black; font-weight: 600; text-align: justify;">ADAS / AI Software Engineer at Qualcomm Technologies </h5>
 									<p style="font-weight:normal;text-align: justify;">Research Scientist specializing in quantized and hardware-aware deep learning for autonomous systems with expertise in model compression (pruning, quantization, knowledge distillation), transformers and LLM optimization, and real-time deployment on embedded platforms (Qualcomm SoCs, NVIDIA Jetson, RTX GPUs). Strong research track record with publications at DATE, DAC, IEEE TCAD, IEEE ICPCSI, and a book chapter on efficient autonomous systems. <br/> </p>
 
