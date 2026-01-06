@@ -22,6 +22,7 @@
         <link rel="stylesheet" href="css/style1.css">
         <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-132542838-1"></script>
+
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
@@ -52,7 +53,73 @@
   margin: 5px 2px;
   border-radius: 50%;
 }
+/* Publications layout cleanup */
+/* ===== Publications (clean + compact) ===== */
+.pub-list{
+  margin-top: 18px;
+  padding-left: 20px;
+}
 
+.pub-list li{
+  margin-bottom: 16px;
+  line-height: 1.35;      /* tighter overall */
+}
+
+.pub-list li b{
+  display: block;
+  font-size: 16px;
+  color: #000 !important;
+  margin: 0;              /* no extra gap */
+  padding: 0;
+  line-height: 1.25;      /* tighter title */
+}
+
+.pub-list li .authors{
+  display: block;
+  margin-top: 2px;        /* small controlled gap */
+}
+
+.pub-meta{
+  display: block;         /* own line, but not huge */
+  margin-top: 2px;
+}
+
+.pub-meta i{
+  display: inline;
+  color: #000;
+}
+
+.sep{
+  margin: 0 8px;
+  color: #000;
+  white-space: nowrap;
+}
+
+.pub-list a{
+  color: #000;
+  text-decoration: underline;
+  white-space: nowrap;
+}
+
+.top-bar{
+  display: flex;
+  justify-content: flex-end;  /* pushes to right */
+  align-items: center;
+  margin-bottom: 10px;
+}
+.section-title{
+  font-size: 28px;
+  font-family: "Courier New";
+  font-weight: bold;
+  text-transform: uppercase;
+  padding-top: 15px;
+  margin-bottom: 15px;
+  color: #000000; 
+}
+
+.section-content{
+  padding-left: 28px;   /* <-- indent everything except title */
+}
 
 .button1 {background-color: #4CAF50;} /* Green */
 .button2 {background-color: #766dff;} /* Blue */
@@ -102,11 +169,15 @@
 								<div class="personal_text">
 									
 
-									<a href="pdf/Abhishek Balasubramaniam_resume.pdf" download target="_blank"> <button class="button button2"><i class="fa fa-download"> Resume </i></button></a> 
+									<div class="top-bar">
+                      <a href="pdf/abhishek_balasubramaniam.pdf" target="_blank" download class="resume-btn">
+                        <i class="fa fa-download"></i> Resume
+                      </a>
+                    </div>
 
 									<h4 font-weight:bold>Hi, I am Abhishek Balasubramaniam</h4><span></span>
-									<h5 style=" color:black, font-weight:bold;text-align: justify;">ADAS/AI Software Enginner at Qualcomm Technologies</h5>
-									<p style="font-weight:normal;text-align: justify;">Working with Qualcomm Automotive team on ADAS AI model performance and deployment. Responsibilities include model onboarding, model performance optimization and evaluation, and application development for deployment.<br/> </p>
+									<h5 style="color: black; font-weight: 600; text-align: justify;">ADAS / AI Software Engineer at Qualcomm Technologies </h5>
+									<p style="font-weight:normal;text-align: justify;">Research Scientist specializing in quantized and hardware-aware deep learning for autonomous systems with expertise in model compression (pruning, quantization, knowledge distillation), transformers and LLM optimization, and real-time deployment on embedded platforms (Qualcomm SoCs, NVIDIA Jetson, RTX GPUs). Strong research track record with publications at DATE, DAC, IEEE TCAD, IEEE ICPCSI, and a book chapter on efficient autonomous systems. <br/> </p>
 
                             
 
@@ -115,11 +186,12 @@
 
                                                               <ul class= "text-dark">
                                                               	<li>Deep Learning</li>
-                                                              	  <li>Model optimization </li>
-                                                              			<li>Connected and automated vehicles.</li>
+                                                                <li>Generative AI</li>
+                                                                <li>Autonomous Driving</li>
+                                                              	  <li>Model optimization</li>
+                                                              			<li>Sensor fusion</li>
                                                               			 <li>Reinforcement Learning</li>
-                                                                      <li> Generative AI </li>
-                                                                       <li> Image processing </li><br/>
+                                                                       <li>Image processing</li><br/>
                                                                  </ul>
                           			
 					               <!--      <a href="#" class="fa fa-facebook"></a>
@@ -135,7 +207,7 @@
 
 										<a href="https://www.linkedin.com/in/abhishek-balasubramaniam/" target="_blank"><i class="fa fa-linkedin fa1" style="font-size:36px" aria-hidden="true"></i></a>
 										<a href="https://github.com/abhishekbalu" target="_blank"><i class="fa fa-github fa1" style="font-size:36px" aria-hidden="true"></i></a>
-										<a href="https://www.facebook.com/abhishek.rocker2" target="_blank"><i class="fa fa-facebook fa1" style="font-size:36px" aria-hidden="true"></i></a>
+										<a href="https://scholar.google.com/citations?user=Nnnfr6QAAAAJ&hl=en" target="_blank"> <i class="fa fa-graduation-cap fa1" style="font-size:36px" aria-hidden="true"></i></a>
 										<a href="mailto:abhisheklokesh6008@gmail.com" target="_blank"><i class="fa fa-envelope fa1" style="font-size:36px" aria-hidden="true"></i></a>
 										<a href="tel:+1(970)-227-4428" target="_blank"><i class="fa fa-phone fa1" style="font-size:36px" aria-hidden="true"></i></a>
 
@@ -158,9 +230,12 @@
         	<div class="container">
             <div class="media-body">
         		  <div class = "Hightlights">
-                <div class="h4 text-dark" style="font-weight: bold; font-family: Courier New; "> Highlights : </div> 
+                <div class="section-title">
+                  Highlights :
+                </div>
+                <div class="section-content">
                 <h6 style="text-align: justify;" > ADAS/AI Software Engineer: </h6>
-                      <p style="text-align: justify;"> Working with Qualcomm Automotive team on ADAS AI model performance and deployment. Responsibilities include model onboarding, model performance evaluation and improvement, and application development for deployment. </p> 
+                      <p style="text-align: justify;"> Working with the Qualcomm Automotive team on ADAS AI model quantization, performance optimization, and deployment across automotive and embedded platforms. Responsibilities include onboarding and deploying CNNs, Vision Transformers, LLMs (Llama-3, Phi-3.5, Qwen), and diffusion models on Qualcomm SoCs; building mixed-precision (INT8/FP8/FP16) inference pipelines with operator fusion to reduce latency and energy; collaborating with hardware and runtime teams to optimize model-to-accelerator mappings under real-time ADAS constraints; benchmarking deployments using Qualcomm AI Engine, TensorRT, and ONNX Runtime; integrating perception models such as object detection, lane segmentation, and driver monitoring into production ADAS pipelines in compliance with ISO 26262; and automating end-to-end deployment workflows using Docker, CI/CD, and Python toolchains. </p> 
                 <h6 style="text-align: justify;" > Graduate Research Assistant: </h6>
                       <p style="text-align: justify;"> I am working on deep learning model optimization techniques for low power perception for autonomous vehicles at the EPiC lab at Colorado state university under the guidance of Dr. Sudeep Pasricha. As a part of my research, I have been the Technical Advisor of the Connected and Autonomous vehicles system for the CSU vehicle innovation team for ECOCAR challenge. </p> 
                 <h6 style="text-align: justify;"> Graduate Teaching Assistant: </h6>
@@ -174,11 +249,131 @@
                 <h6 style="text-align: justify;"> CAVS Technical Advisor: </h6>
                       <p style="text-align: justify;">As a part of CSU vehicle innovation team for Ecocar Mobility challenge is a competition in which we develop a prototype of Level 2 automotive vehicle. My role as a graduate student is to come up with ideas that can improve the CAVS system performance. </p>
               </div>
+              </div>
+           
+
+        <!-- =================Publications Area ================= -->
+
+              <div class="Hightlights">
+
+              <div class="section-title">
+                Publications :
+              </div>
+              <div class="section-content">
+              <p style="text-align: justify; margin-top: 6px;">
+                Selected publications and research contributions. Full list available on
+                <a href="https://scholar.google.com/citations?user=Nnnfr6QAAAAJ&hl=en"
+                target="_blank" rel="noopener"
+                class="scholar-btn">
+                <i class="fa fa-graduation-cap"></i> Google Scholar
+              </a>
+              </p>
+
+              
+
+              <hr style="margin: 18px 0;">
+
+              <ol class="pub-list">
+
+              <li>
+                <b>UPAQ: A Framework for Real-Time and Energy-Efficient 3D Object Detection in Autonomous Vehicles</b>
+                Abhishek Balasubramaniam, Febin P Sunny, Sudeep Pasricha<br>
+                <span class="pub-meta">
+                  <i>2025 Design, Automation &amp; Test in Europe Conference (DATE)</i>
+                  <span class="sep">|</span>
+                  <a href="https://scholar.google.com/citations?view_op=view_citation&user=Nnnfr6QAAAAJ&citation_for_view=Nnnfr6QAAAAJ:Y0pCki6q_DkC"
+                    target="_blank" rel="noopener">Google Scholar</a>
+                </span>
+              </li>
+
+              <li>
+                <b>R-TOSS: A Framework for Real-Time Object Detection Using Semi-Structured Pruning</b>
+                Abhishek Balasubramaniam, Febin Sunny, Sudeep Pasricha<br>
+                <span class="pub-meta">
+                  <i>2023 60th ACM/IEEE Design Automation Conference (DAC)</i>
+                  <span class="sep">|</span>
+                  <a href="https://scholar.google.com/citations?view_op=view_citation&user=Nnnfr6QAAAAJ&citation_for_view=Nnnfr6QAAAAJ:qjMakFHDy7sC"
+                    target="_blank" rel="noopener">Google Scholar</a>
+                </span>
+              </li>
+
+              <li>
+                <b>Object Detection in Autonomous Cyber-Physical Vehicle Platforms: Status and Open Challenges</b>
+                Abhishek Balasubramaniam, Sudeep Pasricha<br>
+                <span class="pub-meta">
+                  <i>Machine Learning and Optimization Techniques for Automotive Cyber-Physical Systems</i>
+                  <span class="sep">|</span>
+                  <a href="https://scholar.google.com/citations?view_op=view_citation&user=Nnnfr6QAAAAJ&citation_for_view=Nnnfr6QAAAAJ:IjCSPb-OGe4C"
+                    target="_blank" rel="noopener">Google Scholar</a>
+                </span>
+              </li>
+
+              <li>
+                <b>Object Detection in Autonomous Vehicles: Status and Open Challenges</b>
+                A Balasubramaniam, S Pasricha<br>
+                <span class="pub-meta">
+                  <i>arXiv preprint</i>, 2022
+                  <span class="sep">|</span>
+                  <a href="https://scholar.google.com/citations?view_op=view_citation&user=Nnnfr6QAAAAJ&citation_for_view=Nnnfr6QAAAAJ:W7OEmFMy1HYC"
+                    target="_blank" rel="noopener">Google Scholar</a>
+                </span>
+              </li>
+
+              <li>
+                <b>Opima: Optical Processing-in-Memory for Convolutional Neural Network Acceleration</b>
+                Febin Sunny, Amin Shafiee, Abhishek Balasubramaniam, Mahdi Nikdast, Sudeep Pasricha<br>
+                <span class="pub-meta">
+                  <i>IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems</i>
+                  <span class="sep">|</span>
+                  <a href="https://scholar.google.com/citations?view_op=view_citation&user=Nnnfr6QAAAAJ&citation_for_view=Nnnfr6QAAAAJ:Tyk-4Ss8FVUC"
+                    target="_blank" rel="noopener">Google Scholar</a>
+                </span>
+              </li>
+
+              <li>
+                <b>ROS-Based Stereo Vision System for Autonomous Vehicles</b>
+                Abhishek Balasubramaniam, S Gautham, D Varun Rufus Raj Samuel, K Keshav, UP Vignesh, Shyam R Nair<br>
+                <span class="pub-meta">
+                  <i>2017 IEEE International Conference on Power, Control, Signals and Instrumentation Engineering (ICPCSI)</i>
+                  <span class="sep">|</span>
+                  <a href="https://scholar.google.com/citations?view_op=view_citation&user=Nnnfr6QAAAAJ&citation_for_view=Nnnfr6QAAAAJ:u5HHmVD_uO8C"
+                    target="_blank" rel="noopener">Google Scholar</a>
+                </span>
+              </li>
+
+              <li>
+                <b>Low-Cost ROS-Based Semi-Autonomous Drone with Position and Altitude Lock</b>
+                Abhishek Balasubramaniam, K Keshav, S Gautham, D Varun Rufus Raj Samuel, Shyam R Nair<br>
+                <span class="pub-meta">
+                  <i>2017 IEEE International Conference on Power, Control, Signals and Instrumentation Engineering (ICPCSI)</i>
+                  <span class="sep">|</span>
+                  <a href="https://scholar.google.com/citations?view_op=view_citation&user=Nnnfr6QAAAAJ&citation_for_view=Nnnfr6QAAAAJ:u-x6o8ySG0sC"
+                    target="_blank" rel="noopener">Google Scholar</a>
+                </span>
+              </li>
+
+              <li>
+                <b>Optimizing Machine Learning Models for Autonomous Vehicles</b>
+                Abhishek Balasubramaniam<br>
+                <span class="pub-meta">
+                  <i>Colorado State University</i>
+                  <span class="sep">|</span>
+                  <a href="https://scholar.google.com/citations?view_op=view_citation&user=Nnnfr6QAAAAJ&citation_for_view=Nnnfr6QAAAAJ:YsMSGLbcyi4C"
+                    target="_blank" rel="noopener">Google Scholar</a>
+                </span>
+              </li>
+
+            </ol>
             </div>
 
-        			
-        	</div>
-        </section>
+            </div>
+
+
+            </div>
+          </div>
+        </div>
+      </section>
+
        
         
         <!--================Footer Area =================-->
